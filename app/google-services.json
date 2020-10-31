@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "539538833860",
+    "firebase_url": "https://ruqyah-counselling.firebaseio.com",
+    "project_id": "ruqyah-counselling",
+    "storage_bucket": "ruqyah-counselling.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539538833860:android:f81dc5fc9eb8b20d882491",
+        "android_client_info": {
+          "package_name": "com.codies.ruqyahcounselling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539538833860-c58059k59ionqt76mkjehs0cff9usph9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codies.ruqyahcounselling",
+            "certificate_hash": "197284519d05fa34c38e66300edb5522234cf06d"
+          }
+        },
+        {
+          "client_id": "539538833860-8visor8360h4iugkmnngb928k4lqdi52.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXgMALO6op2RPdG8vM4VRadEGLvbHS4YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539538833860-8visor8360h4iugkmnngb928k4lqdi52.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

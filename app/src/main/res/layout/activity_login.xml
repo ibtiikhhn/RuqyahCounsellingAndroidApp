@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/haveAccountTVSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ruqyah Counselling"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/colornormalText"
+        android:text="Login to continue"
+        app:layout_constraintEnd_toEndOf="@+id/haveAccountTVSignUp"
+        app:layout_constraintStart_toStartOf="@+id/haveAccountTVSignUp"
+        app:layout_constraintTop_toBottomOf="@+id/haveAccountTVSignUp" />
+
+
+    <EditText
+        android:id="@+id/emailEtLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Enter your email"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorAccent"
+        android:textColorHint="@color/colornormalText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <EditText
+        android:id="@+id/passwordEtLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="textPassword"
+        android:textColorHint="@color/colornormalText"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/colorAccent"
+        android:hint="Enter your password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toTopOf="@+id/emailEtLogin"
+        app:layout_constraintStart_toStartOf="@+id/emailEtLogin" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintStart_toStartOf="@+id/passwordEtLogin"
+        app:layout_constraintTop_toBottomOf="@+id/emailEtLogin" />
+
+    <Button
+        android:id="@+id/loginBtLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="@+id/passwordEtLogin"
+        app:layout_constraintStart_toStartOf="@+id/passwordEtLogin"
+        app:layout_constraintTop_toBottomOf="@+id/forgotPasswordTvLogin" />
+
+    <TextView
+        android:id="@+id/forgotPasswordTvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/passwordEtLogin"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEtLogin" />
+
+    <TextView
+        android:id="@+id/dontHaveAccountTVLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Dont have account?"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PatientRegistration.PlanForSuicideActivity">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="What is the last time you had a plan for suicide?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/neverSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        android:text="Never"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/yearAgoSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Over a year ago"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/neverSuicide"
+        app:layout_constraintStart_toStartOf="@+id/neverSuicide"
+        app:layout_constraintTop_toBottomOf="@+id/neverSuicide" />
+
+    <Button
+        android:id="@+id/threemonthsagoBTSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        android:text="Over 3 months ago"
+        app:layout_constraintEnd_toEndOf="@+id/yearAgoSuicide"
+        app:layout_constraintStart_toStartOf="@+id/yearAgoSuicide"
+        app:layout_constraintTop_toBottomOf="@+id/yearAgoSuicide" />
+
+    <Button
+        android:id="@+id/monthAgoBTSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        android:text="Over a month ago"
+        app:layout_constraintEnd_toEndOf="@+id/threemonthsagoBTSuicide"
+        app:layout_constraintStart_toStartOf="@+id/threemonthsagoBTSuicide"
+        app:layout_constraintTop_toBottomOf="@+id/threemonthsagoBTSuicide" />
+
+    <Button
+        android:id="@+id/weekAgoBTSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Over a week ago"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/monthAgoBTSuicide"
+        app:layout_constraintStart_toStartOf="@+id/monthAgoBTSuicide"
+        app:layout_constraintTop_toBottomOf="@+id/monthAgoBTSuicide" />
+
+    <Button
+        android:id="@+id/thisWeekBTSuicide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/round_corner_button"
+        android:textColor="@color/white"
+        android:text="This week"
+        app:layout_constraintEnd_toEndOf="@+id/weekAgoBTSuicide"
+        app:layout_constraintStart_toStartOf="@+id/weekAgoBTSuicide"
+        app:layout_constraintTop_toBottomOf="@+id/weekAgoBTSuicide" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

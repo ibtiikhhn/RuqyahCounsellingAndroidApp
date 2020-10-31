@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codies.ruqyahcounselling">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.PaymentActivity"></activity>
+        <activity android:name=".Agora.VideoCallScreenUser" />
+        <activity android:name=".UI.Counsellor.ChatActivity" />
+        <activity android:name=".UI.Counsellor.PatientDetailActivity" />
+        <activity android:name=".UI.Patient.PatientMakeAppointment" />
+        <activity android:name=".UI.StartingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PatientRegistration.SpiritualActivity" />
+        <activity android:name=".PatientRegistration.CountryActivity" />
+        <activity android:name=".PatientRegistration.ChronicPainActivity" />
+        <activity android:name=".PatientRegistration.SleepingHabitActivity" />
+        <activity android:name=".PatientRegistration.TakingMedicationActivity" />
+        <activity android:name=".PatientRegistration.ExperiencingAnxietyActivity" />
+        <activity android:name=".PatientRegistration.PlanForSuicideActivity" />
+        <activity android:name=".PatientRegistration.ExperiencingSadnessActivity" />
+        <activity android:name=".PatientRegistration.TherapyActivity" />
+        <activity android:name=".PatientRegistration.ReligionActivity" />
+        <activity android:name=".PatientRegistration.RelegiousActivity" />
+        <activity android:name=".PatientRegistration.GenderActivity" />
+        <activity android:name=".PatientRegistration.AgeActivity" />
+        <activity android:name=".UI.ForgotPasswordActivity" />
+        <activity
+            android:name=".UI.Patient.PatientMainActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".UI.Counsellor.CounsellorMainActivity" />
+        <activity android:name=".UI.Patient.SessionPatientActivity" />
+        <activity android:name=".UI.SignUpActivity" />
+        <activity android:name=".UI.Counsellor.SessionCounsellorActivity" />
+        <activity android:name=".UI.LoginActivity" />
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_WwMnCQdSdOEsIO" />
+    </application>
+
+</manifest>

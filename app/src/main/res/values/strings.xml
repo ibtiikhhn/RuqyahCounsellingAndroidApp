@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Ruqayah Counselling</string>
+    <string-array name="age_array">
+        <item>14–17</item>
+        <item>18–21</item>
+        <item>22–25</item>
+        <item>26–29</item>
+        <item>30–33</item>
+        <item>34–37</item>
+        <item>38–41</item>
+        <item>42–45</item>
+        <item>46–49</item>
+        <item>50–53</item>
+        <item>54–57</item>
+        <item>58–61</item>
+        <item>62–65</item>
+        <item>66–69</item>
+        <item>70–73</item>
+        <item>74–77</item>
+        <item>78–81</item>
+        <item>82–85</item>
+        <item>86–89</item>
+        <item>90–93</item>
+        <item>94–97</item>
+        <item>98–101</item>
+
+    </string-array>
+
+    <string name="age_prompt">14</string>
+    <!-- PLEASE KEEP THIS App ID IN SAFE PLACE -->
+    <!-- Get your own App ID at https://dashboard.agora.io/ -->
+    <!-- After you entered the App ID, remove <##> outside of Your App ID -->
+    <string name="agora_app_id">f608db9d809248e298435555f5bf8977</string>
+    <!-- Obtain a temp Access Token at https://dashboard.agora.io -->
+    <!-- You will need to deploy your own token server for production release -->
+    <!-- Leave this value empty if Security keys/Token is not enabled for your project -->
+    <string name="agora_access_token">00626779c975b814e47b34f1f8372f73f6cIADMw/J5MF0EOv5IsSRbxpd4DGZKKBTwUg3BcWZM31XaEgZa8+gAAAAAEAAjQkINf/vtXQEAAQB/++1d</string>
+</resources>
